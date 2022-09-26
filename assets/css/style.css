@@ -1,8 +1,11 @@
 .debug .profile .container div {
-    height: 100px;
     border: 1px solid white;
 }
 
 .debug .portfolio .container div {
     border: 1px solid black;
+}
+
+.debug .about [class^="col-"] {
+    border: 1px solid white;
 }
