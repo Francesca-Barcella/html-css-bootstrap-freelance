@@ -1,3 +1,4 @@
+/* #region debug */
 .debug .profile .container div {
     border: 1px solid white;
 }
@@ -5,7 +6,6 @@
 .debug .portfolio .container div,
 .debug .contact .container div {
     border: 1px solid black;
-    background-color: lightgrey;
 }
 
 .debug .about [class^="col-"],
@@ -13,6 +13,56 @@
     border: 1px solid white;
 }
 
-.debug .footer_top .container div  {
+.debug .footer_top .container div {
     border: 1px solid black;
 }
+
+/* #endregion debug */
+
+/* #region utilities */
+:root {
+    --bf_nav_dark: #2C3E50;
+    --bf_nav_dark_lite: #3A546D;
+    --bf_bg_primary: #1ABC9C;
+    --bf_bg_secondary: #FFFFFF;
+    --bf_dark: #000;
+}
+
+/* #endregion utilities */
+
+/* #region common */
+header,
+.footer_bottom {
+    background-color: var(--bf_nav_dark);
+}
+
+.profile,
+.about {
+    background-color: var(--bf_bg_primary);
+}
+
+.portfolio,
+.contact {
+    background-color: var(--bf_bg_secondary);
+}
+
+.footer_top {
+    background-color: var(--bf_nav_dark_lite);
+}
+
+header,
+.profile,
+.about,
+footer {
+    color: var(--bf_bg_secondary);
+}
+
+.portfolio, .contact{
+    color: var(--bf_nav_dark);
+}
+
+/* #endregion common */
+
+/* #region main */
+
+/* #endregion main */
