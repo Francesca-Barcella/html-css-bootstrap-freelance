@@ -2,10 +2,17 @@
     border: 1px solid white;
 }
 
-.debug .portfolio .container div {
+.debug .portfolio .container div,
+.debug .contact .container div {
     border: 1px solid black;
+    background-color: lightgrey;
 }
 
-.debug .about [class^="col-"] {
+.debug .about [class^="col-"],
+.debug .footer_bottom {
     border: 1px solid white;
+}
+
+.debug .footer_top .container div  {
+    border: 1px solid black;
 }
