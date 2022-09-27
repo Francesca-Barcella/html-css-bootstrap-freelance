@@ -7,7 +7,6 @@
     border: 1px solid black;
 }
 
-.debug .about [class^="col-"],
 .debug .footer_bottom {
     border: 1px solid white;
 }
