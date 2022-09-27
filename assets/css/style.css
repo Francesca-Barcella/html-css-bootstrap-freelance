@@ -3,7 +3,6 @@
     border: 1px solid white;
 }
 
-.debug .portfolio .container div,
 .debug .contact .container div {
     border: 1px solid black;
 }
@@ -15,10 +14,6 @@
 
 .debug .footer_top .container div {
     border: 1px solid black;
-}
-
-.debug header{
-    height: 100Px;
 }
 
 /* #endregion debug */
@@ -35,6 +30,11 @@
 /* #endregion utilities */
 
 /* #region common */
+img{
+    max-width: 100%;
+    margin: auto;
+}
+
 header,
 .footer_bottom {
     background-color: var(--bf_nav_dark);
@@ -54,7 +54,6 @@ header,
     background-color: var(--bf_nav_dark_lite);
 }
 
-
 .profile,
 .about,
 footer {
@@ -68,5 +67,6 @@ footer {
 /* #endregion common */
 
 /* #region main */
+
 
 /* #endregion main */
