@@ -40,7 +40,8 @@ header,
 }
 
 .profile,
-.about {
+.about,
+.contact button {
     background-color: var(--bf_bg_primary);
 }
 
@@ -55,7 +56,8 @@ header,
 
 .profile,
 .about,
-footer {
+footer,
+.contact button {
     color: var(--bf_bg_light);
 }
 
