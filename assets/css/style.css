@@ -1,20 +1,4 @@
 /* #region debug */
-.debug .profile .container div {
-    border: 1px solid white;
-}
-
-.debug .contact .container div {
-    border: 1px solid black;
-}
-
-.debug .footer_bottom {
-    border: 1px solid white;
-}
-
-.debug .footer_top .container div {
-    border: 1px solid black;
-}
-
 /* #endregion debug */
 
 /* #region utilities */
@@ -64,6 +48,7 @@ footer,
 .portfolio, .contact{
     color: var(--bf_nav_dark);
 }
+
 
 /* #endregion common */
 
