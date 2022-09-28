@@ -50,7 +50,6 @@ footer,
 /* #endregion common */
 
 /* #region main */
-
 .profile img{
     width: 200px;
 }
@@ -67,7 +66,7 @@ footer,
 
 .line_star{
     height: 4px;
-    width: 130px;
+    width: 170px;
     border-radius: 2rem;
 }
 
