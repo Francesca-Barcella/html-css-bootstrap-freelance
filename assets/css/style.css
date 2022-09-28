@@ -57,18 +57,26 @@ footer,
 
 .profile .line_star,
 .about .line_star{
-    height: 5px;
-    width: 150px;
     background-color: var(--bf_bg_light);
-    border-radius: 2rem;
 }
 
 .portfolio .line_star,
 .contact .line_star{
-    height: 5px;
-    width: 150px;
     background-color: var(--bf_nav_dark);
+}
+
+.line_star{
+    height: 4px;
+    width: 130px;
     border-radius: 2rem;
 }
 
 /* #endregion main */
+
+/* #region footer */
+.footer_top .icons div{
+    height: 35px;
+    aspect-ratio: 1 / 1;
+    border: var(--bf_bg_light);
+}
+/* #endregion footer */
